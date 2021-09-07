@@ -8,6 +8,27 @@ ping and pong responses are displayed in logs.
 just to display, disconnect and reconnect after a while. Try out and share your feedback.
 
 
+vertx:
+Vert.x is multithreaded framework
+It uses a controlled number of threads
+For event loop tasks, size of the thread pool is two times the CPU count by default
+For worker tasks, size of the thread pool is 20 by default
+Sizes of both thread pools can be easily adjusted
+
+Maximum number of Event Loop threads depends on number of CPUs, not on number of verticles deployed
+
+
+https://alexey-soshin.medium.com/playing-ping-pong-over-websockets-with-vert-x-447c634c6c87?p=c31759757ce8
+
+https://alexey-soshin.medium.com/understanding-vert-x-event-loop-46373115fb3e
+
+https://dzone.com/articles/introduce-to-eclicpse-vertx
+
+vertx references
+
+- https://www.javatpoint.com/vertx-java
+
+
 = Vertexstarter
 
 image:https://img.shields.io/badge/vert.x-4.1.3-purple.svg[link="https://vertx.io"]
